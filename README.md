@@ -18,10 +18,6 @@ Consignes de démarrage, méthodologie.
 
 Structures de base, types de variable, animation simple, syntaxe, console
 
-#### Capsule (fin de journée)
-
-Présentation du parcours de l'enseignant et présentation de divers projets de l'enseignant. Mise en relation des projets avec des concepts de programmations et rétro-ingénierie (*reverse engineering*) sommaire des projets.
-
 #### Références, documentations et téléchargements
 
 - [EDM4610 - Semaine 1 - Vendredi](https://github.com/jmcouillard/EDM4610/tree/master/Semaine%201%20-%20Vendredi)
@@ -29,6 +25,11 @@ Présentation du parcours de l'enseignant et présentation de divers projets de 
 #### Travail / atelier
 
 Pas de travail à remettre.
+
+
+#### Capsule (fin de journée)
+
+Présentation du parcours de l'enseignant et présentation de divers projets de l'enseignant. Mise en relation des projets avec des concepts de programmations et rétro-ingénierie (*reverse engineering*) sommaire des projets.
 
 
 ## Semaine 2 - Mardi
@@ -49,11 +50,15 @@ Il y aura un travail à remettre au début du cours suivant. Le contenu de ce tr
 
 #### Thématiques
 
-Fonctions, boucles itératives, interactions
+Fonctions, boucles itératives et conditionnelles, interactions
 
 #### Travail / atelier
 
 Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+#### Capsule (fin de journée)
+
+Discussion sur les modes d'interactions, textures de contrôle et entrées de données. Présentation d'un projet incluant un mode de présentation plus abstrait (EXO - Étoiles) et des concepts reliées.
 
 
 ## Semaine 3 - Mardi
@@ -69,13 +74,18 @@ Tracé vectoriel
 Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
 
 
+#### Capsule (fin de journée)
+
+Présentation de git et des différentes plateformes. Présentation des outils et logiciels reliés.
+
+
 ## Semaine 3 - Vendredi
 
 24 septembre 2015
 
 #### Thématiques
 
-Tracé vectoriel
+Objets et classes (POO)
 
 #### Travail / atelier
 
@@ -89,6 +99,19 @@ Il y aura un travail à remettre au début du cours suivant. Le contenu de ce tr
 #### Thématiques
 
 Tableaux, systèmes de pige
+
+#### Travail / atelier
+
+Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+
+## Semaine 4 - Vendredi
+
+2 octobre 2015
+
+#### Thématiques
+
+Objets et classes (POO) - suite
 
 #### Travail / atelier
 
