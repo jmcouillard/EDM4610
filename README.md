@@ -3,6 +3,13 @@ EDM4610
 
 Explications, code sources et références pour le cours EDM4610 à l'automne 2015
 
+UQAM - Université du Québec à Montréal
+Programme de Baccalauréat en médias interactifs
+
+Enseignants : Jean-François Renaud (professeur), Jean-Maxime Couillard (chargé de cours)
+
+N’hésitez pas à consulter le [Repository](https://github.com/Morpholux/EDM4610) du cours développé par Jean-François. Vous y trouverez ses notes de cours et les exemples qu’il a préparés en vue des séances du mardi.
+
 ## Semaine 1 - Mardi
 
 8 septembre 2015
