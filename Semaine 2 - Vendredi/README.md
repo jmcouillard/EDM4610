@@ -341,12 +341,12 @@ void keyPressed() {
 
 ## Atelier
 
-À voir.
-
 Créer un système qui réagit à la position de la souris lorsque celle-ci est cliqué.
 
 Utiliser une ou plusieurs fonctions pour dessiner les éléments récurrents.
 
-Utiliser une boucle itérative pour dessiner plusieurs copies du même élément
+Utiliser une ou plusieurs boucles itératives pour dessiner plusieurs copies du même élément.
 
-Permettre que plusieurs éléments déclencer puisse
+Permettre que plusieurs éléments déclenché puissent cohabiter en même temps.
+
+Utiliser des conditions pour créer des variations de cet élément.

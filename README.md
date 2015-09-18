@@ -33,11 +33,9 @@ Structures de base, types de variable, animation simple, syntaxe, console
 
 Pas de travail à remettre.
 
-
 #### Capsule (fin de journée)
 
-Présentation du parcours de l'enseignant et présentation de divers projets de l'enseignant. Mise en relation des projets avec des concepts de programmations et rétro-ingénierie (*reverse engineering*) sommaire des projets.
-
+Pas de capsule de prévue.
 
 ## Semaine 2 - Mardi
 
