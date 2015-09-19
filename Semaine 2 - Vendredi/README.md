@@ -244,10 +244,19 @@ Les opérataeurs sont les suivants :
 
 
 ```
-if( condition ) {
+if( condition && condition2 ) {
 	// Mon action si la condition est remplie
 } else {
 	// Mon action si la condition n'est PAS remplie
+}
+```
+Avec des vrais variables :
+
+```
+if( mouseX > width/2 && mouseY > height/2 ) {
+	// La souris est dans la partie inférieur droite du sketch
+} else {
+	// La souris est ailleurs
 }
 ```
 
