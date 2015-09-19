@@ -341,7 +341,7 @@ void keyPressed() {
 
 ## Atelier
 
-Créer un système qui réagit à la position de la souris lorsque celle-ci est cliquée.
+Créer un système qui réagit à la position de la souris lorsque celle-ci est cliquée (ou à l'utilisation du clavier).
 
 Utiliser une ou plusieurs fonctions pour dessiner les éléments récurrents.
 
