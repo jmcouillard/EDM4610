@@ -1,4 +1,5 @@
 Ressources TouchDesigner
 =======
 
-- [http://book.nvoid.com/](http://book.nvoid.com/)
+- [PDF - Introduction to TouchDesigner](http://book.nvoid.com/)
+- [Matthew Ragan](http://matthewragan.com/teaching-resources/touchdesigner/)
