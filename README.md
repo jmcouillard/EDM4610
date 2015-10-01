@@ -81,7 +81,7 @@ Il y aura un travail à remettre au début du cours suivant. Le contenu de ce tr
 
 #### Capsule (fin de journée)
 
-Présentation de git et des différentes plateformes. Présentation des outils et logiciels reliés.
+Révisions des notions en classe et retour sur les ateliers.
 
 
 ## Semaine 3 - Vendredi
@@ -95,6 +95,10 @@ Objets et classes (POO)
 #### Travail / atelier
 
 Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+#### Capsule (fin de journée)
+
+Présentation de git et des différentes plateformes. Présentation des outils et logiciels reliés.
 
 
 ## Semaine 4 - Mardi
@@ -117,6 +121,88 @@ Il y aura un travail à remettre au début du cours suivant. Le contenu de ce tr
 #### Thématiques
 
 Objets et classes (POO) - suite
+
+#### Travail / atelier
+
+Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+#### Capsule (fin de journée)
+
+Retour sur GIT (retour sur SourceTree, comment utiliser git sans SourceTree).
+
+
+## Semaine 5 - Mardi
+
+6 octobre 2015
+
+#### Thématiques
+
+Classe PVector
+
+#### Travail / atelier
+
+Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+
+## Semaine 5 - Vendredi
+
+9 octobre 2015
+
+#### Thématiques
+
+Héritage de classes (*extends*) et mouvements cycliques
+
+#### Travail / atelier
+
+Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+
+## Semaine 6 - Mardi
+
+13 octobre 2015
+
+#### Thématiques
+
+Simulations physiques
+
+#### Travail / atelier
+
+Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+
+## Semaine 6 - Vendredi
+
+16 octobre 2015
+
+#### Thématiques
+
+Mouvement atténué (Librairie Ani)
+
+#### Travail / atelier
+
+Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+
+## Semaine 7 - Mardi
+
+20 octobre 2015
+
+#### Thématiques
+
+Texture Operators (TOPs)
+
+#### Travail / atelier
+
+Il y aura un travail à remettre au début du cours suivant. Le contenu de ce travail sera fourni par l'enseigant durant le cours.
+
+
+## Semaine 7 - Vendredi
+
+23 octobre 2015
+
+#### Thématiques
+
+Animation et média linéaire (compositions, calques, effets)
 
 #### Travail / atelier
 
