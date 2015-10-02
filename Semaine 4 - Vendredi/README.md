@@ -190,7 +190,7 @@ Tout est dit ici : [http://wiki.t-o-f.info/Processing/Transformation](http://wik
 - Créer un système "vivant" en utilisant au moins deux classes et plusieurs instances de chacune d'elle.
 - Utiliser une approche graphique au choix (formes avec une approche esthétique, typographie, utilisation d'images).
 - Utiliser les matrices de transformation pour positionner les objets.
-- Porter une attention particulière à faire varier l'apparence et les comportements des éléments de manière à créer une "individualité" à travers les objets. Bien q- e ce soit tous des instances des mêmes classes, ils méritent leur personnalité propre !
+- Porter une attention particulière à faire varier l'apparence et les comportements des éléments de manière à créer une "individualité" à travers les objets. Bien que ce soit tous des instances des mêmes classes, ils méritent leur personnalité propre !
 
 ### Inspirations
 
