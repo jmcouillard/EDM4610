@@ -190,4 +190,13 @@ Tout est dit ici : [http://wiki.t-o-f.info/Processing/Transformation](http://wik
 - Créer un système "vivant" en utilisant au moins deux classes et plusieurs instances de chacune d'elle.
 - Utiliser une approche graphique au choix (formes avec une approche esthétique, typographie, utilisation d'images).
 - Utiliser les matrices de transformation pour positionner les objets.
-- Porter une attention particulière à faire varier l'apparence et les comportements des éléments de manière à créer une "individualité" à travers les objets. Bien qe ce soit tous des instances des mêmes classes, ils méritent leur personnalité propre !
+- Porter une attention particulière à faire varier l'apparence et les comportements des éléments de manière à créer une "individualité" à travers les objets. Bien q- e ce soit tous des instances des mêmes classes, ils méritent leur personnalité propre !
+
+### Inspirations
+
+- [http://www.creativeapplications.net/news/private-i-ldf-2015/](http://www.creativeapplications.net/news/private-i-ldf-2015/)
+- [http://www.creativeapplications.net/javascript-2/novoline-7/
+](http://www.creativeapplications.net/javascript-2/novoline-7/)
+- [http://www.creativeapplications.net/i-os/deko-generative-wallpapers-for-ios/
+](http://www.creativeapplications.net/i-os/deko-generative-wallpapers-for-ios/)
+- [http://www.creativeapplications.net/vvvv/cycles-720-hybrid-visualaudio-sequencer-by-craig-allan/](http://www.creativeapplications.net/vvvv/cycles-720-hybrid-visualaudio-sequencer-by-craig-allan/)
