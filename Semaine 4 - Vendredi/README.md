@@ -139,6 +139,7 @@ Il est possible de créer facilement et rapidement une multitude d'instances de 
 
 ```
 int cerclesCount = 100;
+Cercle[] cercles = new Cercle[cerclesCount];
 
 void setup() {
   size(960, 540);
