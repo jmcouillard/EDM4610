@@ -150,7 +150,7 @@ Il y aura un travail à remettre au début du cours suivant. Le contenu de ce tr
 
 #### Thématiques
 
-Héritage de classes (*extends*) et mouvements cycliques
+Héritage de classes (*extends*) et mouvements cycliques (sin et cos)
 
 #### Travail / atelier
 
@@ -176,7 +176,7 @@ Il y aura un travail à remettre au début du cours suivant. Le contenu de ce tr
 
 #### Thématiques
 
-Mouvement atténué (Librairie Ani)
+Mouvement atténué et librairie Ani
 
 #### Travail / atelier
 

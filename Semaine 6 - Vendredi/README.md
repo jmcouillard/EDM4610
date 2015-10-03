@@ -1,55 +1,86 @@
-EDM4610 - Semaine 5 - Vendredi
+EDM4610 - Semaine 6 - Vendredi
 =======
 
 Références, documentations et téléchargements.
 
-Le cours a lieu le 9 octobre 2015.
+Le cours a lieu le 16 octobre 2015.
 
 ## Concepts
 
+### 1 - Assouplissement
 
-### 1 - sin et cos (oscillation)
+#### Simple, et efficace : vitesse proportionnelle pour une variable
 
-Ces deux fonctions servent à animer des objets d'une manière «organique». Ce sont les fonctions de base pour tout mouvement qui se rapproche de la nature.
+La manière la plus simple selon moi pour assouplir une donnée. Plus la une valeur se rapproche de sa cible, plus sont déplacement sera lent.
 
-**sin**
-
-![image](http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sinus.svg/400px-Sinus.svg.png)
-
-**cos**
-
-![image](http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cosinus.svg/400px-Cosinus.svg.png)
-
-Comme ces deux fonnctions retournent une valeur entre -1 et 1, il est très facile de les faire osciller sur une distance fixe, en les mutlipliant simplement par la valeur désirée.
+Si vous n'aviez qu'une seule méthode d'assouplissement à vous souvenir, ce serait sans doute celle ci. Personnellement, je m'en sers 95% du temps.
 
 ```
-float posX = sin(frameCount/30.0)*100 + 100;
-rect(posX, 100,100,100);
+// La position actuelle
+float posX = 200;
+
+// La position cible
+float targetX = 300;
+
+// le facteur d'assouplissement (float entre 0 et 1)
+float facteur = 0.05;
+
+void draw() {
+	posX = (targetX - posX) * facteur + posX;
+}
 ```
 
-**À remarquer :** L'utilisation de `30.0` plutôt que `30`. Cela force la division à se faire avec des virgules, et donc de conserver les décimales.
+#### Vitesse fixe pour une variable 1D
 
-En combinant *sin* et *cos*, nous pouvons déplacer un objet autour d'un cercle.
+De la même manière qu'avec l'exemple précédent, nous utilisons une position cible et une position actuelle.
+
+La différence, c'est que nous n'utilisons pas de facteur. De plus nous utilisons la fonction `min()` qui retourne la plus petit valeur de celle que nous lui fournissons, de manière à limiter la vitesse.
+
+Plus d'information sur la fonction `min()` [ici](http://www.processing.org/reference/min_.html).
 
 ```
-float posX = sin(frameCount/30.0)*100 + 100;
-float posY = cos(frameCount/30.0)*100 + 100;
-rect(posX, posY,100,100);
+// La position actuelle
+float posX = 200;
+
+// La position cible
+float targetX = 300;
+
+// le facteur d'assouplissement (float entre 0 et 1)
+float vitesse = 5;
+
+void draw() {
+  float distance = abs(targetX - posX);
+  
+  if ( courante < cible ) {
+    posX = posX + min(distance,vitesse);
+  } else {
+    posX = posX - min(distance,vitesse);
+  }
+}
 ```
 
-Ma page préférée sur wikipédia : [http://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique](http://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique)
-
-Plus de détails ici : [http://wiki.t-o-f.info/Processing/Oscillation](http://wiki.t-o-f.info/Processing/Oscillation)
 
 
-### 2 - sin et cos (cercle et sphere)
+#### Vitesse fixe pour une variable 2D
 
-TODO.
+C'est l'équivalent de la méthode précédente, mais la vitesse est constante à travers 2 dimensions. L'opération se fait donc en trois temps :
 
-http://lightgraffiti.littlesun.com/
+- Déterminer dans quelle direction se dirige (en radians) en utilisant la fonction trigonométrique `atan2()`.
+- Définir la distance à parcourir (distance entre deux points).
+- Répartir cette distance sur proportionnelement sur les deux axes, de manières à ce que la vitesse soit constente.
+
+```
+float radians = atan2( yCible-y , xCible-x );
+float distance = dist( xCible , yCible , x , y );
+
+x = cos(radians) * min( vitesse , distance ) + x;
+y = sin(radians) * min( vitesse , distance ) + y;
+```
+
+Plus d'informations ici : [http://wiki.t-o-f.info/Processing/Assouplissement](http://wiki.t-o-f.info/Processing/Assouplissement)
 
 
-### 3 - Classes *extends* (héritage)
+### 2 - Classes *extends* (héritage)
 
 Nous avons vu qu'une classe était une structure qui contenait entre autres :
 
@@ -125,6 +156,10 @@ class BoutonSquare extends Button {
 }
 
 ```
+
+### 3 - Librarie d'animatio Ani
+
+TODO
 
 
 ## Atelier
