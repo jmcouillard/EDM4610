@@ -109,3 +109,5 @@ http://lightgraffiti.littlesun.com/
 - Utiliser **sin et/ou cos** pour disposer des éléments et/ou créer des oscillations organiques.
 
 Pour ceux qui souhaite davantage de directions : créer un **vortex/trou noir/spirale** d'éléments. Les éléments si enfoncet sans cesse.
+
+Autre source d'inspiration : [https://vimeo.com/141724479](https://vimeo.com/141724479)
