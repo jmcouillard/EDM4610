@@ -5,8 +5,21 @@ Références, documentations et téléchargements.
 
 Le cours a lieu le 9 octobre 2015.
 
-## Concepts
+## Plan du cours
 
+AM :
+
+- Survol des ateliers
+- Capsule de la semaine dernière (analyse d'un projet avec une approche orientée objet)
+- Retour sur les propriétés de classes (utilisation des classes) et les fonctions (l'ordre des paramètres)
+- Sin et Cos
+- Héritage des classes
+
+PM :
+
+- Atelier
+
+## Concepts
 
 ### 1 - sin et cos (oscillation)
 
@@ -39,94 +52,60 @@ rect(posX, posY,100,100);
 
 Ma page préférée sur wikipédia : [http://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique](http://fr.wikipedia.org/wiki/Fonction_trigonom%C3%A9trique)
 
+L'intérêt de `sin` et `cos` réside dans : 
+
+- la fluidité de leurs mouvements
+- la valeur de retour qui est dite *normalisée*, c'est-à-dire entre **-1 et 1**
+
+
+
+![image](https://dl.dropboxusercontent.com/u/1052827/EDM4600/sin.gif)
+
 Plus de détails ici : [http://wiki.t-o-f.info/Processing/Oscillation](http://wiki.t-o-f.info/Processing/Oscillation)
 
 
 ### 2 - sin et cos (cercle et sphere)
 
-TODO.
+En utilisant sin et cos simultanément, il est possible de simuler des comportements circulaires.
 
+En effet, sin et cos ont s'opèrent sur la même distance (`TWO_PI`) : il complètent un cycle complet entre 0 et 6,2832. 
+
+![image](https://dl.dropboxusercontent.com/u/1052827/EDM4600/cos-sin.png)
+
+En associant `sin` à la position X d'un objet et `cos` à sa position Y, nous povons voir que les deux fonctions mathématiques ne sont pas synchronisées aléatoirement :
+
+```
+float radius = 100;
+float x = (oscillationSin *radius / 2) + width/2;
+float y = (oscillationCos * radius / 2) + height/2;
+
+noStroke();
+fill(255);
+ellipse(sin(life) * radius + (width/2), cos(life) * radius + (width/2), 10, 10) ;
+```
+
+Résultat :
+
+![image](https://dl.dropboxusercontent.com/u/1052827/EDM4600/cos-sin-circle.gif)
+
+C'est tout à fait logique, puis	que `sin` et `cos` tirent leur source dans la trigonométrie et sont basés sur PI, mesure de base de la trigonométrie.
+
+En 3D, cela est aussi un concept très utilisé, entre autre pour disposer des points ou des éléments autour d'une sphère. Car une façon d'aborder la sphère est de la concevoir comme plusieurs cercles (ou anneaux) de différentes tailles organisées autour d'un demi-cercle.
+
+![image](https://dl.dropboxusercontent.com/u/1052827/EDM4600/sphere.png)
+
+
+### Exemple
+
+Un bel exemple de l'utilisation 
 http://lightgraffiti.littlesun.com/
-
-
-### 3 - Classes *extends* (héritage)
-
-Nous avons vu qu'une classe était une structure qui contenait entre autres :
-
-- des variables
-- des méthodes
-
-Toutefois, il peut arriver que plusieurs classes partagent un certains nombres de fonctionnalités. Plutôt que de récrire plusieurs fois ces éléments, nous allons indiquer à une classe qu'elle *hérite* des fonctions et de variables d'une autre classe. C'est un concept que nous appelons *héritage*.
-
-On dit alors qu'une classe en *extend* une autre.
-
-Il permet d'appliquer l'approche *DRY* (*don't repeat yourself*) aux classes.
-
-Ainsi, une classe `Bouton` pourrait contenir des fonctions de base de positions, de détection de clique, d'effet de survol, alors que les classes `BoutonCircle` et `BoutonSquare` ajouteraient des fonctionnalités spécifiques à chacune des formes.
-
-```
--> Bouton
----> BoutonCircle
----> BoutonSquare
-```
-
-De la même manière, dans un jeu plus classique, une classe `Personnage` pourrait contenir les fonctions et variables relatives aux personnages d'un jeu, alors que les classes `Ennemi` et `Hero` comporteraient les variables et fonctions relatives au personnage contrôlé par l'utilisateur et ceux simulés par l'ordinateur, tout en héritant des fonctions de la classe `Personnage` :
-
-```
--> Personnage
----> Hero
----> Ennemi
-```
-
-Moins de code, moins d'erreurs!
-
-Les classes peuvent hériter de plusieurs niveau de profondeur :
-
-
-```
--> DisplayObject
----> Bouton
------> BoutonCircle
------> BoutonSquare
----> Plateforme
------> PlateformeFixe
------> PlateformeVerticale
-```
-
-Pour définir une nouvelle classe qui hérite d'une autre classe, nous utilisons le mot clé *extends*, suivi du nom de la classe *mère* :
-
-```
-class BoutonSquare extends Button {
-
-  BoutonSquare() {
-  }
-}
-
-```
-
-Les classes qui *héritent* peuvent redéclarer des fonctions contenues dans la classe *mère*. C'est ce qu'on appelle *override*. Dans ce cas, c'est toujours la fonction de la classe courante qui sera appelée, plutôt que celle de la classe mère.
-
-Le mot clé `super` permet de contrôler ce comportement, et d'appeler spécifiquement une fonction de la classe mère.
-
-
-```
-class BoutonSquare extends Button {
-
-  BoutonSquare() {
-    // Force l'appel au constructeur de la classe mère
-    // Nécessaire si le constructeur de la classe mère nécessite des paramètres
-    super(10)
-  }
-  
-  void draw() {
-    // Force l'appel à la fonction draw() de la classe Button, malgré l'override
-    super.draw()
-  }
-}
-
-```
 
 
 ## Atelier
 
-À voir.
+- Créer un système d'objet organisés en **tableaux** et en **classes**.
+- Les éléments du système doivent s'organiser autour de certaines **règles perceptibles**.
+- Un certain **esthétisme** dans l'apparence et/ou dans le comportement doit être présent.
+- Utiliser **sin et/ou cos** pour disposer des éléments et/ou créer des oscillations organiques.
+
+Pour ceux qui souhaite davantage de directions : créer un **vortex/trou noir/spirale** d'éléments. Les éléments si enfoncet sans cesse.

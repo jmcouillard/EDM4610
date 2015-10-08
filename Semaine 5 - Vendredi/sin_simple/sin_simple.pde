@@ -1,5 +1,5 @@
 /*
- Déplacement autour d'un cercle en utilisant sin et cos.
+ xxx
  
  Auteur : Jean-Maxime Couillard
  Licence : 
@@ -43,9 +43,6 @@ void draw() {
   textAlign(RIGHT, CENTER);
   text("sin", width / 2 - 10, height / 2 - 20);
   text(oscillationSin, width / 2 - 10, height / 2);
-  textAlign(LEFT, CENTER);
-  text("cos", width / 2 + 10, height / 2 - 20);
-  text(oscillationCos, width / 2 + 10, height / 2);
 
   // Incrémenter la vie
   life += 0.01;
