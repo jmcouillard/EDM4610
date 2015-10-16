@@ -57,16 +57,10 @@ float targetX = 300;
 float vitesse = 5;
 
 void draw() {
-  float distance = abs(targetX - posX);
-  
-  if ( courante < cible ) {
-    posX = posX + min(distance,vitesse);
-  } else {
-    posX = posX - min(distance,vitesse);
-  }
+  posX += constrain(targetX - posX, -speed, speed);
+  posY += constrain(targetY - posY, -speed, speed);
 }
 ```
-
 
 
 #### Vitesse fixe pour une variable 2D
@@ -165,7 +159,7 @@ class BoutonSquare extends Button {
 
 ```
 
-### 3 - Librarie d'animatio Ani
+### 3 - Librarie d'animation Ani
 
 Il existe une librarie de *tweening* qui peut aussi être utilisée pour faire des déplacement plus facilement, bien que mois flexibles : [Ani](http://benedikt-gross.de/libraries/Ani/).
 
@@ -208,8 +202,7 @@ Plus de détails sur le site de [Ani](http://benedikt-gross.de/libraries/Ani/).
 
 - Créer un **système d'éléments** qui intéragissent selon certaines règles.
 - Utiliser des particules différentes mais qui **héritent toutes de la même classe principale** et qui font toutes parties du **même tableau**.
-- Utiliser **seulement des formes ou les image du dossier "particles"s** comme matières premières.
-- Certains types d'objets ou de particules doivent se déplacer en utilisant **l'assouplissement proportionnel et un autre type d'assouplissement**.
+- Certains types d'objets ou de particules doivent se déplacer en utilisant **l'assouplissement proportionnel ou un autre type d'assouplissement**.
 
 
-http://media02.hongkiat.com/webgl-experiments/animated-volume-particles.jpg
+Inspiration : http://media02.hongkiat.com/webgl-experiments/animated-volume-particles.jpg
