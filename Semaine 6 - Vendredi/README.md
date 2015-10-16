@@ -7,7 +7,6 @@ Le cours a lieu le 16 octobre 2015.
 
 ## Plan du cours
 
-- Regarder l'objectif de l'atelier de l'après-midi
 - Héritage des classes
 - Pause 
 - Assouplissement proportionnel
@@ -207,7 +206,10 @@ Plus de détails sur le site de [Ani](http://benedikt-gross.de/libraries/Ani/).
 
 ## Atelier
 
-- Créer un **système de particules** qui intéragissent selon certaines règles.
+- Créer un **système d'éléments** qui intéragissent selon certaines règles.
 - Utiliser des particules différentes mais qui **héritent toutes de la même classe principale** et qui font toutes parties du **même tableau**.
 - Utiliser **seulement des formes ou les image du dossier "particles"s** comme matières premières.
 - Certains types d'objets ou de particules doivent se déplacer en utilisant **l'assouplissement proportionnel et un autre type d'assouplissement**.
+
+
+
