@@ -5,6 +5,15 @@ Références, documentations et téléchargements.
 
 Le cours a lieu le 16 octobre 2015.
 
+## Plan du cours
+
+- Regarder l'objectif de l'atelier de l'après-midi
+- Héritage des classes
+- Pause 
+- Assouplissement proportionnel
+- Assouplissement fixe 1D et 2D
+- Ani
+
 ## Concepts
 
 ### 1 - Assouplissement
@@ -159,9 +168,46 @@ class BoutonSquare extends Button {
 
 ### 3 - Librarie d'animatio Ani
 
-TODO
+Il existe une librarie de *tweening* qui peut aussi être utilisée pour faire des déplacement plus facilement, bien que mois flexibles : [Ani](http://benedikt-gross.de/libraries/Ani/).
+
+C'est l'équivalent de [Greensock](https://greensock.com/gsap) pour Java.
+
+D'abord, il faut installer la librairie dans le dossier `libraries` de votre dossier Processing.
+
+Il faut toujours initiliser la librairie avant de l'utiliser : 
+
+```
+Ani.init(this);
+```
+
+Ensuite, nous pouvons l'utiliser pour amener des variables d'une valeur à une autre avec un assouplissement.
+
+L'utilisation minimale de Ani est la suivante :
+
+```
+Ani.to(this, 1.5, "y", mouseY);
+```
+
+Les paramètres sont les suivants :
+
+1. `this` : l'objet dont la variable doit être modifiée.
+2. `1.5` : la durée (en secondes) de l'assouplissement.
+3. `y` : le nom de la variable à modifier.
+4. `mouseY` : la valeur de destination de la variable.
+
+On peut y ajouter un paramètre pour définir le type d'assouplissement (parmi [ceux-ci](http://benedikt-gross.de/libraries/Ani/Ani_Cheat_Sheet.pdf)) :
+
+```
+Ani.to(this, 1.5, "y", mouseY, Ani.QUAD_OUT);
+```
+
+Plus de détails sur le site de [Ani](http://benedikt-gross.de/libraries/Ani/).
+
 
 
 ## Atelier
 
-À voir.
+- Créer un **système de particules** qui intéragissent selon certaines règles.
+- Utiliser des particules différentes mais qui **héritent toutes de la même classe principale** et qui font toutes parties du **même tableau**.
+- Utiliser **seulement des formes ou les image du dossier "particles"s** comme matières premières.
+- Certains types d'objets ou de particules doivent se déplacer en utilisant **l'assouplissement proportionnel et un autre type d'assouplissement**.

@@ -30,19 +30,17 @@ void draw() {
 
   // Définir les oscillations et les variables
   float oscillationSin = sin(life); 
-  float oscillationCos = cos(life); 
   float x = (oscillationSin *radius / 2) + width/2;
-  float y = (oscillationCos * radius / 2) + height/2;
-
+ 
   // Affichage de l'ellipse
   noStroke();
   fill(255);
-  ellipse(x, y, 10, 10) ;
+  ellipse(x, height/2, 10, 10) ;
 
   // Visualisation de la donnée d'oscillation 
-  textAlign(RIGHT, CENTER);
-  text("sin", width / 2 - 10, height / 2 - 20);
-  text(oscillationSin, width / 2 - 10, height / 2);
+  textAlign(CENTER, CENTER);
+  text("sin", width / 2, height / 2 - 80);
+  text(oscillationSin, width / 2, height / 2 -50);
 
   // Incrémenter la vie
   life += 0.01;
