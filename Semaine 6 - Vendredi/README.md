@@ -205,11 +205,3 @@ Plus de détails sur le site de [Ani](http://benedikt-gross.de/libraries/Ani/).
 
 
 ## Atelier
-
-- Créer un **système d'éléments** qui intéragissent selon certaines règles.
-- Utiliser des particules différentes mais qui **héritent toutes de la même classe principale** et qui font toutes parties du **même tableau**.
-- Utiliser **seulement des formes ou les image du dossier "particles"s** comme matières premières.
-- Certains types d'objets ou de particules doivent se déplacer en utilisant **l'assouplissement proportionnel et un autre type d'assouplissement**.
-
-
-
