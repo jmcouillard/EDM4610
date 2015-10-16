@@ -24,8 +24,18 @@ void draw() {
   posX = posX + (targetX-posX)/10.0;
   posY = posY + (targetY-posY)/10.0;
   
+  noStroke();
   rectMode(CENTER);
-  rect(posX, posY, 50, 50);
+  
+  // Triangle
+  pushMatrix();
+  translate(posX, posY);
+  beginShape();
+  vertex(0, -10);
+  vertex(-10, 10);
+  vertex(10, 10);
+  endShape();
+  popMatrix();
 }
 
 void mousePressed() {
