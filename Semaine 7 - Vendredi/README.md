@@ -95,12 +95,13 @@ Pour utiliser OSC (comme pour bien d'autres fonctionnalités *communes*), le plu
 	- Camera ou video ([référence](https://processing.org/reference/libraries/video/index.html))
 	- Microphone ou fichier audio ([référence](https
 			://processing.org/reference/libraries/sound/index.html))
-	- Une interface externe (clavier MIDI, etc.)
-- Créer un scketch qui reçoit ces données et réagit à ces données en utilisant :
+	- Une interface externe (clavier MIDI, etc.
+- Créer un sketch qui reçoit ces données et réagit à ces données en utilisant :
 	- Un approche graphique de votre choix (formes, images ou vidéos)
 	- Une palette graphique cohérente
 	- Des PVector pour enregistrer les positions
 	- Une approche orientée objet (OOP)
-	
+
+Possibilité d'utiliser TouchOSC plutôt que de faire une sketch d'envoi de données, mais je m'attends à davantage d'amour dans le sketch de réception.
 
 Proposition d'idée : utiliser comme base l'exemple qui vient avec la librairie **Video** nommée *Frame Differencing* pour analyser la vidéo d'une webcam. Envoyer ce video au deuxième sketch pour réagir aux données.
