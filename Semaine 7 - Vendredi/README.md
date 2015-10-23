@@ -67,7 +67,7 @@ Les messages OSC n'ont pas de port obligatoire, ils peuvent être envoyés sur n
 
 C'est un façon d'identifier un ordinateur sur un réseau. Il y a l'adresse ip externe, utilisée pour accéder à Internet ([voir Google](https://www.google.ca/search?hl=en&safe=off&q=what+is+my+ip)) et l'adresse interne, utilisée pour identifier un périphérique à l'intérieur d'un réseau à plus petite échellet (un router).
 
-#### Localhost ou 121.0.0.1
+#### Localhost ou 127.0.0.1
 
 C'est une adresse IP utilisé pour s'identifier "soi-même". Souvent utilisé pour envoyer des messages d'un programme à l'autre sur le même ordinateur.
 
