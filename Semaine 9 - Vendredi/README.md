@@ -8,9 +8,9 @@ Le cours a lieu le 6 novembre 2015.
 ## Plan du cours
 
 - Video dans Processing
+- Mini atelier sur les shaders
 - Méthodes de conception et de travail
 - Poursuite du projet
-- Si le temps nous le permet : mini atelier sur les shaders
 
 ## Concepts
 
