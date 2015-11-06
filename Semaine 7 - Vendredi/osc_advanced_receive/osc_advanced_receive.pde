@@ -83,7 +83,6 @@ void draw() {
   blendMode(NORMAL);
   fill(200, 255);
   ellipse(pos.x * width, pos.y * height, 10, 10);
-
 }
 
 void selectWord(String word) {

@@ -1,14 +1,15 @@
 /*
  Réception de données OSC.
- Conçu pour être utilisé avec le layout par default de TouchOSC.
+ Conçu pour être utilisé avec le layout Beatmachine de TouchOSC.
  http://hexler.net/software/touchosc
  
  Auteur : Jean-Maxime Couillard
  Licence : 
  Syntaxe : Processing version 3.0b5
- */
+*/
 
 // Importer la librairie OSC
+import netP5.*;
 import oscP5.*;
 
 // Déclarer l'objet de la librairie
