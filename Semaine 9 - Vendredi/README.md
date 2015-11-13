@@ -164,6 +164,8 @@ void main() {
 
 #### Quelques liens pour aller plus loin
 
+- Bases (en anglais) : https://processing.org/tutorials/pshader/
+- Un formiadable livre malheureusement incomplet : http://patriciogonzalezvivo.com/2015/thebookofshaders/
 - Bases (en anglais) : [http://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313](http://gamedevelopment.tutsplus.com/tutorials/a-beginners-guide-to-coding-graphics-shaders--cms-23313)
 - Autre approche de base (en anglais) : [http://area.autodesk.com/blogs/chris/introduction-to-pixel-shaders-using-glsl](http://area.autodesk.com/blogs/chris/introduction-to-pixel-shaders-using-glsl)
 - Éditeur en temps réel : [http://shdr.bkcore.com/](http://shdr.bkcore.com/)
