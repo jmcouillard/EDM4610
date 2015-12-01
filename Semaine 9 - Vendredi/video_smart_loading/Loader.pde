@@ -25,7 +25,7 @@ public class Loader extends Thread {
 
       int found = 0;
 
-      // Chargement des images de papillon
+      // Chargement des images
       for (int i=0; i<threshold; i++) {
         int frame = (i + currentFrame - (threshold/2)) % framesTotal;
         if (frame < 0) {
@@ -88,4 +88,3 @@ public class Loader extends Thread {
     updateDelay = val;
   }
 }
-
